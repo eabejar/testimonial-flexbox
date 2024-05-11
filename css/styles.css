@@ -1,0 +1,71 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.master{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    flex-direction: column;
+
+
+    
+}
+
+img {
+        width: 30px;
+        border-radius: 5px;
+        float: left;
+        margin-right: 10px;
+}
+
+p.username{
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+p.verified{
+        opacity: 50%;
+        color: #ffffff;
+        margin: 0%;
+        
+
+    
+}
+
+.top{
+    display: flex;
+}
+.bottom{
+    display: flex;
+}
+.centrada1{
+   display: flex;
+   background-color: #7541c8;
+
+}
+.centrada2{
+    display: flex;
+   background-color: #48556a;
+}
+
+.centrada3{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+
+}
+
+.centrada4{
+    display: flex;
+    background-color: #19212e;
+    
+}
+.centrada5{
+    display: flex;
+    background-color: #ffffff;
+}
