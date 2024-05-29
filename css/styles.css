@@ -3,11 +3,10 @@ body{
 }
 .master{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    height: 100vh;
-    background-color: aqua;
     flex-direction: column;
+    background-color: #D3D3D3	;
 
 
     
@@ -15,10 +14,12 @@ body{
 
 #left{
     display: flex;
+    float: left;
 }
 
 #top{
     display: flex;
+    margin-bottom: 15px;
 }
 
 img {
@@ -49,6 +50,24 @@ p.verified{
     
 }
 
+p.username3{
+    width: 200px;
+    font-weight: bold;
+    color: #48556a;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    
+}
+
+p.verified3{
+    margin-top: 10px;
+    opacity: 50%;
+    color: #48556a;
+    margin-left: 10px;
+    
+}
+
 p.text-b{
     width: 500px;
     text-align: left;
@@ -62,35 +81,74 @@ p.text-b{
 p.text{
     width: 500px;
     text-align: left;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+p.text-b3{
+    width: 200px;
+    text-align: left;
+    font-size: large;
+    color:#48556a;
+    font-weight: bold;
+    
+    
+}
+
+p.text3{
+    width: 200px;
+    text-align: left;
+    color: #48556a;
+    opacity: 70%;
 }
 
 #buttom{
     display: flex;
 }
+#right{
+    display: flex;
+    float: right;
+}
 #centrada1{
    background-color: #7541c8;
    display: inline-block;
    padding: 30px;
+   border-radius: 5%;
 
 }
 #centrada2{
-    display: flex;
+    display: inline-block;
    background-color: #48556a;
+   padding: 30px;
+   border-radius: 5%;
+
+
 }
 
 #centrada3{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5%;
+
 
 }
 
 #centrada4{
-    display: flex;
+    display: inline-block;
     background-color: #19212e;
+    border-radius: 5%;
+    padding: 30px;
+
     
     
 }
 #centrada5{
+    order: 5;
+    display: inline-block;
     background-color: #ffffff;
+    border-radius: 5%;
+    padding: 30px;
+
 }
